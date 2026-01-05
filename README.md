@@ -1,7 +1,9 @@
-# Women in Design
+# The Street of Crocodiles
 
-Feel free to download the CSS, image folder and index file for this and incorporate it into your own **Women in Design** project.
+[Version 1](https://leemcc123.github.io/crocodiles/)
 
-You will need to link the **style.css** file you have created for the April Greiman page to ensure both file look similar.
+[Version 2](https://leemcc123.github.io/crocodiles/index2.html)
 
-You will notice that I have included the connections, reset, and grid CSS files, you will need to add these to your own CSS folder to ensure the grid works on the main index page.
+[Version 3](https://leemcc123.github.io/crocodiles/index3.html)
+
+

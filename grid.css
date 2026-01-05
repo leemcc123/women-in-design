@@ -1,0 +1,56 @@
+
+    /* ====== DESIGNER GRID ====== */
+    .designers {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 2rem;
+      max-width: 1100px;
+      margin: 0 auto 4rem;
+      padding: 0 1rem;
+    }
+
+      .designers a {
+      border-bottom: none;
+    }
+
+    .designer-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.8s ease, box-shadow 0.8s ease;
+    }
+
+    .designer-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .designer-card img {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .designer-card h3 {
+      font-size: 1.25rem;
+      margin: 1rem;
+      color: #111;
+    }
+
+    .designer-card p {
+      margin: 0 1rem 1.5rem;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 600px) {
+      .hero-content h2 {
+        font-size: 1.75rem;
+      }
+      .intro h2 {
+        font-size: 1.5rem;
+      }
+    }
+    
